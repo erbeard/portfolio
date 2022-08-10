@@ -94,6 +94,26 @@ section {
     
 }
 
+.aboutme-section {
+    display: flex;
+}
+
+.aboutme-section p {
+    font-size: 28px;
+    padding: 10px;
+
+}
+
+.bio-pic {
+    display: flex;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding-left: 20px;
+    border: #13294B 3px;  
+}
+    
+
 .work-section {
 
     display: flex;
@@ -146,6 +166,7 @@ section {
     flex-basis: 50%;
     display: flex;
     align-items: flex-end;
+    flex: 1
 }
 
 .project a:hover {
@@ -157,6 +178,11 @@ section {
     flex-basis: 100%;
     max-width: 100%;
     min-height: 400px;
+}
+
+#image-large {
+   width: 100px; 
+   height: 300px;
 }
 
 .project-img {
@@ -193,5 +219,52 @@ section {
 
 .contact-info p {
     color:#13294B;
+    font-size: 30px;
     border-bottom: 3px solid #13294B;
+}
+
+.flex-row {
+    display: flex;
+}
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+      }
+
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+      
+      header nav ul li a {
+        font-size: 20px;
+      }
+
+      .aboutme-section  {
+        flex: 0 70%;
+      }
+    
+      .section-title {
+        width: 100%;
+      }
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
+    .work-projects {
+        flex: 0 100%
+    }
+    
+
+    }
 }
