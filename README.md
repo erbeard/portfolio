@@ -12,7 +12,7 @@ This website displays the working portfolio of Edward Beard.
 ## Features
 This webisite was developed with the following features
 
-* An updated photograph of myself along with a link to an older version of my resume
+* An updated photograph of myself 
 * There are sections about me, my work and my contact information
 * When you click the links in the navigation, the UI will smooth scroll to the correspoinding section clicked
 * When you click the section about my work, you will arrive to the section with images of projects that I have developed along with a few placeholders that will link to my github
